@@ -1,0 +1,51 @@
+/*@font-face { font-family: "Helvetica Neue Medium"; src: url('../fonts/HelveticaNeueLTStd-Md.otf') format("opentype"); }*/ 
+body {
+	background: #150023;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+#wrapper {
+	width: 1020px;
+	margin: 60px 45px;
+}
+/*------------------HEADER------------------*/
+#header {
+	width: 100%;
+	margin-bottom: 80px;
+}
+#header h1 a{
+	background: url(../images/logo.png) top left no-repeat;
+	text-indent: -9999px;
+	display: block;
+	width: 98px;
+	height: 95px;
+}
+/*------------------SIDE NAV------------------*/
+#main_content {
+	width: 1020px;
+}
+#side_nav {
+	width: 175px;
+	float: left;
+}
+#side_nav h2 {
+	color: #89d4df;
+	font-size: 30px;
+	font-weight: normal;
+}
+#side_nav ul {
+	list-style-type: none;
+}
+ul.projects {
+	margin: 0;
+	padding: 0;
+}
+ul.projects li a {
+	font-size: 18px;
+	text-decoration: none;
+	color: #d6d6d6;
+	
+}
+#content {
+	float: left;
+	width: 800px;
+}
