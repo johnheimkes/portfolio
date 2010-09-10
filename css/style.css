@@ -1,4 +1,6 @@
-/*@font-face { font-family: "Helvetica Neue Medium"; src: url('../fonts/HelveticaNeueLTStd-Md.otf') format("opentype"); }*/ 
+@font-face { font-family: "Helvetica Neue Roman"; src: url('../fonts/HelveticaNeueLTStd-Roman.otf') format("opentype"); }
+@font-face { font-family: "Helvetica Neue Medium"; src: url('../fonts/HelveticaNeueLTStd-Md.otf') format("opentype"); }
+
 body {
 	background: #150023;
 	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
@@ -29,23 +31,72 @@ body {
 }
 #side_nav h2 {
 	color: #89d4df;
-	font-size: 30px;
 	font-weight: normal;
+	letter-spacing: .06em;
+	font-size: 30px;
+	margin-bottom: 10px;
 }
 #side_nav ul {
 	list-style-type: none;
 }
-ul.projects {
-	margin: 0;
-	padding: 0;
+
+ul.projects li {
+	padding-bottom: 10px;
 }
 ul.projects li a {
 	font-size: 18px;
+	padding: 3px;
 	text-decoration: none;
 	color: #d6d6d6;
-	
 }
+ul.projects li a:hover {background: #9d4729;}
 #content {
 	float: left;
 	width: 800px;
+}
+.description {
+	width: 300px;
+	padding-top: 10px;
+	margin-left: 64px;
+	line-height: 1.4em;
+	float: left;
+}
+.description h4 {
+	font-size: 16px;
+	color: #bd6141;
+	font-weight: normal;
+	padding-bottom: 5px;
+}
+.description p {
+	font-size: 14px;
+	color: #d6d6d6;
+	font-family: 'Helvetica Neue Roman';
+}
+.decription ul {
+	list-style: none;
+	width: 300px;
+}
+.description ul li {
+	color: #d6d6d6;
+	font-size: 14px;
+	padding-right:45px ;
+	float: left;
+}
+
+/*------------------FOOTER------------------*/
+#footer {
+	clear: both;
+	width: 1000px;
+	border-top: 1px solid #ccc;
+}
+.foot_block {
+	width: 190px;
+	float: left;
+	padding-right: 48px;
+	padding-top: 20px;
+}
+.foot_block h3 {
+	font-family: 'Helvetica Neue Medium';
+	font-size: 16px;
+	color: #89d4df;
 }
