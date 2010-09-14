@@ -9,6 +9,9 @@
     <meta name="Description" content="Descritpion" />
     <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+    <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/scrollable.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/application.js" type="text/javascript" charset="utf-8"></script>
   </head>
   <body>
     <div id="wrapper">
@@ -30,7 +33,27 @@
           </ul>
         </div>
         <div id="content">
-          <img src="images/pic.jpg"/>
+          <div class="prev_next">
+            <!-- MAKE THESE CSS BACKGROUND -->
+            <a class="prev browse left" href="javascript:"><img src="images/previous.png" alt="Previous image" /></a>
+          </div>  
+          <div class="scrollable">
+            <div class="items">
+              <div class="section">
+                <img src="images/pic.jpg"/>
+              </div>
+              <div class="section">
+                <img src="images/pic.jpg"/>
+              </div>
+              <div class="section">
+                <img src="images/pic.jpg"/>
+              </div>
+            </div>
+          </div>
+          <div class="prev_next">
+            <!-- MAKE THESE CSS BACKGROUND -->
+            <a class="next browse right" href="javascript:"><img src="images/next.png" alt="Next image" /></a>
+          </div>
           <div class="description">
             <h4>Slurp! 2010</h4>
             <p>A site built as an invitation to the annual soup party hosted by Grandpa-George</p>

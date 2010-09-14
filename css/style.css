@@ -1,3 +1,5 @@
+@import url('reset.css');
+
 @font-face { font-family: "Helvetica Neue Roman"; src: url('../fonts/HelveticaNeueLTStd-Roman.otf') format("opentype"); }
 @font-face { font-family: "Helvetica Neue Medium"; src: url('../fonts/HelveticaNeueLTStd-Md.otf') format("opentype"); }
 
@@ -150,3 +152,42 @@ p.bottom {
 	letter-spacing: 1px;
 	font-weight: lighter;
 }
+
+#content .prev_next {
+  margin: 270px 5px 0 5px;
+  float: left;
+}
+
+/* scrollable */
+.scrollable {
+
+	/* required settings */
+	position:relative;
+	overflow:hidden;
+	width: 660px;
+	height: 540px;
+	float: left;
+}
+
+/*
+	root element for scrollable items. Must be absolutely positioned
+	and it should have a extremely large width to accommodate scrollable items.
+	it's enough that you set width and height for the root element and
+	not for this element.
+*/
+.scrollable .items {
+	/* this cannot be too large */
+	width: 20000em;
+	position: absolute;
+}
+
+/*
+	a single item. must be floated in horizontal scrolling.
+	typically, this element is the one that *you* will style
+	the most.
+*/
+.items div {
+	float:left;
+	width: 660px;
+}
+/* -- */
