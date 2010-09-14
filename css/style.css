@@ -6,13 +6,13 @@ body {
 	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 #wrapper {
-	width: 1020px;
-	margin: 60px 45px;
+	width: 1040px;
+	margin: 70px 40px;
 }
 /*------------------HEADER------------------*/
 #header {
 	width: 100%;
-	margin-bottom: 80px;
+	margin-bottom: 110px;
 }
 #header h1 a{
 	background: url(../images/logo.png) top left no-repeat;
@@ -34,18 +34,18 @@ body {
 	font-weight: normal;
 	letter-spacing: .06em;
 	font-size: 30px;
-	margin-bottom: 10px;
+	margin-bottom: 17px;
 }
 #side_nav ul {
 	list-style-type: none;
 }
 
 ul.projects li {
-	padding-bottom: 10px;
+	padding-bottom: 13px;
 }
 ul.projects li a {
-	font-size: 18px;
 	padding: 3px;
+	font-size: 18px;
 	text-decoration: none;
 	color: #d6d6d6;
 }
@@ -53,6 +53,7 @@ ul.projects li a:hover {background: #9d4729;}
 #content {
 	float: left;
 	width: 800px;
+	margin-top: -60px;
 }
 .description {
 	width: 300px;
@@ -86,17 +87,66 @@ ul.projects li a:hover {background: #9d4729;}
 /*------------------FOOTER------------------*/
 #footer {
 	clear: both;
-	width: 1000px;
-	border-top: 1px solid #ccc;
+	padding-top: 10px;
+	width: 1040px;
 }
 .foot_block {
-	width: 190px;
+	margin-top: 50px;
+	width: 220px;
 	float: left;
-	padding-right: 48px;
+	padding-right: 20px;
 	padding-top: 20px;
+	border-top: 1px solid #ccc;
 }
 .foot_block h3 {
 	font-family: 'Helvetica Neue Medium';
 	font-size: 16px;
+	padding-bottom: 10px;
 	color: #89d4df;
+}
+.foot_block p, .foot_block ul li, #find_me ul li a {
+	color: #d6d6d6;
+	font-weight: lighter;
+	line-height: 1.4em;
+	font-size: 14px;
+	text-decoration: none;
+}
+#find_me {
+	padding-right:0;
+	padding-left: 20px;
+}
+#contact {
+	width: 300px;
+}
+.foot_block label {
+	color: #d6d6d6;
+	font-family: Helvetica;
+	font-size: 13px;
+}
+#footer input {
+	width: 295px;
+	margin-top: 3px;
+	margin-bottom: 10px;
+	color: #d6d6d6;
+	background: none;
+	padding: 3px;
+	border: 2px solid #919191;
+}
+input#message {
+	height: 70px;
+}
+input#submit {
+	width: 65px;
+	float: right;
+}
+label sup {
+	color: #fe5d24;
+	margin-left: -9px;
+}
+p.bottom {
+	clear: both;
+	color: #d6d6d6;
+	font-size: 11px;
+	letter-spacing: 1px;
+	font-weight: lighter;
 }
