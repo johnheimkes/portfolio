@@ -38,6 +38,7 @@ body {
 	font-size: 30px;
 	margin-bottom: 17px;
 }
+
 #side_nav ul {
 	list-style-type: none;
 }
@@ -89,7 +90,8 @@ ul.projects li a:hover {background: #9d4729;}
 /*------------------FOOTER------------------*/
 #footer {
 	clear: both;
-	padding-top: 10px;
+	position: relative;
+	top: 50px;
 	width: 1040px;
 }
 .foot_block {
@@ -109,13 +111,29 @@ ul.projects li a:hover {background: #9d4729;}
 .foot_block p, .foot_block ul li, #find_me ul li a {
 	color: #d6d6d6;
 	font-weight: lighter;
+	font-family: 'Helvetica Neue Roman';
 	line-height: 1.4em;
 	font-size: 14px;
 	text-decoration: none;
 }
+.foot_block ul.know_left {float: left;}
+.foot_block ul.know_right {
+	float: right;
+	position: relative;
+	right: 30px;
+}
 #find_me {
 	padding-right:0;
 	padding-left: 20px;
+}
+#find_me ul li {
+	height: 20px;
+}
+#find_me ul li a {
+	padding: 2px;
+}
+#find_me ul li a:hover {
+	background: #9d4729;
 }
 #contact {
 	width: 300px;
@@ -125,16 +143,17 @@ ul.projects li a:hover {background: #9d4729;}
 	font-family: Helvetica;
 	font-size: 13px;
 }
-#footer input {
+#footer input, textarea {
 	width: 295px;
-	margin-top: 3px;
-	margin-bottom: 10px;
 	color: #d6d6d6;
 	background: none;
 	padding: 3px;
 	border: 2px solid #919191;
+	margin-top: 3px;
+	margin-bottom: 10px;
 }
-input#message {
+textarea {
+	width: 295px;
 	height: 70px;
 }
 input#submit {
