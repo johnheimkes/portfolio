@@ -5,7 +5,7 @@
 
 body {
 	/*background: #150023;*/
-	background: #161717;
+	background: #1c021d;
 	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 #wrapper {
@@ -77,15 +77,29 @@ ul.projects li a:hover {background: #9d4729;}
 	color: #d6d6d6;
 	font-family: 'Helvetica Neue Roman';
 }
-.decription ul {
-	list-style: none;
-	width: 300px;
+span.launch a{
+	text-decoration: none;
+	color: #d6d6d6;
+	font-size: 14px;
+	padding: 3px;
+	margin-left: -3px;
+}
+span.launch a:hover {
+	background: #9d4729;
+}
+ul.tech_right {
+	position: relative;
+	right: 70px;
 }
 .description ul li {
 	color: #d6d6d6;
 	font-size: 14px;
-	padding-right:45px ;
-	float: left;
+}
+div.description ul.tech_left {float: left;}
+div.description ul.tech_right {
+	float: right;
+	position: relative;
+	right: 100px;
 }
 
 /*------------------FOOTER------------------*/
@@ -121,7 +135,13 @@ ul.projects li a:hover {background: #9d4729;}
 .foot_block ul.know_right {
 	float: right;
 	position: relative;
-	right: 30px;
+	right: 50px;
+}
+ul.info_left {float: left;}
+ul.info_right {
+	float: right;
+	position: relative;
+	right: 70px;
 }
 #find_me {
 	padding-right:0;
@@ -131,7 +151,8 @@ ul.projects li a:hover {background: #9d4729;}
 	height: 20px;
 }
 #find_me ul li a {
-	padding: 2px;
+	padding: 3px;
+	margin-left: -3px;
 }
 #find_me ul li a:hover {
 	background: #9d4729;
@@ -161,9 +182,18 @@ input#submit {
 	width: 65px;
 	float: right;
 }
-label sup {
+sup {
 	color: #fe5d24;
 	margin-left: -9px;
+	font-size: 13px;
+}
+span.notation {
+	position: relative;
+	top: 5px;
+	left: 10px;
+	color: #d6d6d6;
+	font-size: 11px;
+	letter-spacing: 1px;
 }
 p.bottom {
 	clear: both;
