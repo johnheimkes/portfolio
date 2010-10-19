@@ -57,7 +57,7 @@ ul.projects li a:hover {background: #9d4729;}
 #content {
 	float: left;
 	width: 800px;
-	margin-top: -60px;
+	margin-top: -70px;
 }
 .description {
 	width: 300px;
@@ -214,8 +214,8 @@ p.bottom {
 	/* required settings */
 	position:relative;
 	overflow:hidden;
-	width: 660px;
-	height: 540px;
+	width: 640px;
+	height: 480px;
 	float: left;
 }
 
