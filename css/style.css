@@ -4,9 +4,8 @@
 @font-face { font-family: "Helvetica Neue Medium"; src: url('../fonts/HelveticaNeueLTStd-Md.otf') format("opentype"); }
 
 body {
-	/*background: #150023;*/
-	background-image: url(images/bg.jpg) !important;
 	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	background-image: url(../images/bg.jpg);
 }
 #wrapper {
 	width: 1040px;
