@@ -5,7 +5,7 @@
 
 body {
 	/*background: #150023;*/
-	background: #1c021d;
+	background-image: url(images/bg.jpg) !important;
 	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 #wrapper {
