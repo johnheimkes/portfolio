@@ -4,9 +4,9 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>The Portfolio of John Heimkes IV</title>
     <meta name="Author" content="Author" />
-    <meta name="Robots" content="index,all" />
-    <meta name="Keywords" content="Key Words" />
-    <meta name="Description" content="Descritpion" />
+    <meta name="robots" content="noindex, nofollow"
+    <meta name="Keywords" content="John Heimkes IV, portfolio, web design, website, web development, programming, Minneapolis, Minnesota, MN, Twin Cities" />
+    <meta name="Description" content="Portfolio of John Heimkes IV" />
     <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
     <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
