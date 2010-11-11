@@ -34,7 +34,12 @@
         <div class="prev_next">
           <!-- MAKE THESE CSS BACKGROUND -->
           <a class="prev browse left" href="javascript:"><img src="images/previous.png" alt="Previous image" /></a>
-        </div>  
+        </div>
+        <div id="curr_img">
+          <ul>
+          </ul>
+          <p></p>
+        </div>
         <div class="scrollable">
           <div class="items">
             <div class="section">
@@ -103,12 +108,14 @@
         <div class="foot_block" id="contact">
           <h3>Contact</h3>
           <fieldset>
-            <label for="name"><sup>*</sup> Name</label><input type="text" name="name" value="" id="name" />
-            <label for="email">Email</label><input type="text" name="email" value="" id="email" />
-            <label for="message"><sup>*</sup> Message</label><textarea name="message"></textarea>
-            <span class="notation"><sup>*</sup> Denotes required field.</span>
-            <label for="submit"></label><input type="submit" name="submit" value="Submit" id="submit" />
-            
+            <form action="form.php" method="post">
+              <label for="name"><sup>*</sup> Name</label><input type="text" name="name" value="" id="name" />
+              <label for="email">Email</label><input type="text" name="email" value="" id="email" />
+              <label for="message"><sup>*</sup> Message</label><textarea name="message"></textarea>
+              <span class="notation"><sup>*</sup> Denotes required field.</span>
+              <label for="submit"></label><input type="submit" name="submit" value="Submit" id="submit" />
+              
+            </form>
           </fieldset>
         </div>
         <p class="bottom">Built with four generations of love</p>

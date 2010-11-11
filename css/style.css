@@ -194,6 +194,28 @@ span.notation {
 	font-size: 11px;
 	letter-spacing: 1px;
 }
+h3.contact_heading {
+	width: 65px;
+	margin-right: 20px;
+}
+/* return */
+p.return_pass {
+	float: right;
+	width: 220px;
+	font-size: 11px;
+	color: #00f800;
+	position: relative;
+	bottom: 27px;
+}
+p.return_fail {
+	float: right;
+	width: 220px;
+	font-size: 11px;
+	color: #ff2622;
+	position: relative;
+	bottom: 27px;
+}
+/*---*/
 p.bottom {
 	clear: both;
 	color: #d6d6d6;
@@ -238,5 +260,31 @@ p.bottom {
 .items div {
 	float:left;
 	width: 660px;
+}
+/* -- */
+
+/* image indication styling */
+.items div {
+  margin-top: 30px;
+}
+
+#curr_img {
+  width: 105px;
+  height: 25px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 685px;
+}
+
+#curr_img ul li, #curr_img p {
+  float: left;
+  color: #D6D6D6;
+  font-size: 12px;
+  display: none;
+}
+
+#curr_img ul li.current, #curr_img p {
+  display: block;
+  font-weight: bold;
 }
 /* -- */

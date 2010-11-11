@@ -16,7 +16,7 @@
   <body>
     <div id="wrapper">
       <div id="header">
-        <h1><a href='index.html'>The Portfolio of John Heimkes IV</a></h1>
+        <h1><a href='index.html'>iv</a></h1>
       </div>
       
       <div id="main_content">
@@ -29,54 +29,17 @@
             <li><a href="slurp.html">Slurp! 2010</a></li>
           </ul>
         </div>
-        <div id="content">
-          <div class="prev_next">
-            <!-- MAKE THESE CSS BACKGROUND -->
-            <a class="prev browse left" href="javascript:"><img src="images/previous.png" alt="Previous image" /></a>
-          </div>
-          <div id="curr_img">
-            <ul>
-            </ul>
-            <p></p>
-          </div>
-          <div class="scrollable">
-            <div class="items">
-              <div class="section">
-                <img src="images/aai/main.jpg"/>
-              </div>
-              <div class="section">
-                <img src="images/aai/two.jpg"/>
-              </div>
-              <div class="section">
-                <img src="images/aai/three.jpg"/>
-              </div>
-            </div>
-          </div>
-          <div class="prev_next">
-            <!-- MAKE THESE CSS BACKGROUND -->
-            <a class="next browse right" href="javascript:"><img src="images/next.png" alt="Next image" /></a>
-          </div>
-          <div class="description">
-            <h4>AAI Business Services</h4>
-            <p>Lead developer on a site redesign for AccessAbility Inc., a non-profit agency.  This project was part of an in-class assignment for WDIM Production Team.</p>
-            <span class="launch"><a href="dev.papabear.me/aai">Take a peak!</a></span>
-          </div>
-          <div class="description">
-            <h4>Technology</h4>
-            <ul class="tech_left">
-              <li>HTML/CSS</li>
-              <li>WordPress</li>
-              <li>PHP</li>
-            </ul>
-            <ul class="tech_right">
-              <li>JavaScript</li>
-              <li>jQuery</li>
-            </ul>
-            </ul>
-          </div>
-        </div>
+        
+      <div id="content">
+        <!-- <?php
+                if($_GET['success'] == true) {
+                  echo "<h2 class='return'>Thank you for contacting me. You should receive an email soon.</h2>";
+                } elseif($_GET['error'] == true) {
+                  echo "<h2 class='return'>I'm sorry, but there was an error in processing your request.</h2>";
+                }
+                ?> -->
       </div>
-
+    </div>
       <div id="footer">
         <div class="foot_block">
           <h3>About IV</h3>
@@ -109,7 +72,14 @@
           </ul>
         </div>
         <div class="foot_block" id="contact">
-          <h3>Contact</h3>
+          <h3 class="contact_heading">Contact</h3>
+          <?php
+          if($_GET['success'] == true) {
+            echo "<p class='return_pass'>Thanks! I'll get back to you soon.</p>";
+          } elseif($_GET['error'] == true) {
+            echo "<p class='return_fail'>Error! Did you forget something?</p>";
+          }
+          ?>
           <fieldset>
             <form action="form.php" method="post">
               <label for="name"><sup>*</sup> Name</label><input type="text" name="name" value="" id="name" />
