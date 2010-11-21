@@ -72,6 +72,7 @@ ul.projects li a:hover {background: #9d4729;}
 	padding-bottom: 5px;
 }
 .description p {
+	line-height: 1.4em;
 	font-size: 14px;
 	color: #d6d6d6;
 	font-family: 'Helvetica Neue Roman';
@@ -230,15 +231,25 @@ p.bottom {
 }
 
 /* 404 styles */
+div#content.fourohfour {
+	width: 450px;
+	margin-left: 66px;
+}
 div#content.fourohfour h2 {
 	font-size: 60px;
 	font-weight: normal;
 	color: #89d4df;
+	padding-bottom: 20px;
 }
 div#content.fourohfour p {
 	font-size: 25px;
 	color: #d6d6d6;
 	font-weight: normal;
+	line-height: 1.4em;
+}
+div#content.fourohfour a {
+	color: #fba178;
+	text-decoration: none;
 }
 
 /* scrollable */
