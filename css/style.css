@@ -229,6 +229,18 @@ p.bottom {
   float: left;
 }
 
+/* 404 styles */
+div#content.fourohfour h2 {
+	font-size: 60px;
+	font-weight: normal;
+	color: #89d4df;
+}
+div#content.fourohfour p {
+	font-size: 25px;
+	color: #d6d6d6;
+	font-weight: normal;
+}
+
 /* scrollable */
 .scrollable {
 
