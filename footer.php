@@ -19,7 +19,7 @@
         <div class="foot_block" id="find_me">
           <h3>Stalk me</h3>
           <ul class="info_left">
-            <li><a href="resume.html">Resume</a></li>
+            <li><a href="/personal/theiv/resume">Resume</a></li>
             <li><a href="http://twitter.com/johnheimkes" target="_blank">Twitter</a></li>
             <li><a href="http://www.linkedin.com/pub/john-heimkes/1a/475/4b0" target="_blank">LinkedIn</a></li>
           </ul>
@@ -35,7 +35,7 @@
             <form action="form.php" method="post">
               <label for="name"><sup>*</sup> Name</label><input type="text" name="name" value="" id="name" />
               <label for="email">Email</label><input type="text" name="email" value="" id="email" />
-              <label for="message"><sup>*</sup> Message</label><textarea name="message"></textarea>
+              <label for="message"><sup>*</sup> Message</label><textarea name="message" id="message"></textarea>
               <span class="notation"><sup>*</sup> Denotes required field.</span>
               <label for="submit"></label><input type="submit" name="submit" value="Submit" id="submit" />
               
