@@ -1,10 +1,9 @@
+/* @override http://bigjohn.com/personal/theiv/css/style.css */
+
 @import url('reset.css');
 
-@font-face { font-family: "Helvetica Neue Roman"; src: url('../fonts/HelveticaNeueLTStd-Roman.otf') format("opentype"); }
-@font-face { font-family: "Helvetica Neue Medium"; src: url('../fonts/HelveticaNeueLTStd-Md.otf') format("opentype"); }
-
 body {
-	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
 	background-image: url(../images/bg.jpg);
 }
 #wrapper {
@@ -75,7 +74,7 @@ ul.projects li a:hover {background: #9d4729;}
 	line-height: 1.4em;
 	font-size: 14px;
 	color: #d6d6d6;
-	font-family: 'Helvetica Neue Roman';
+	font-family: 'Helvetica';
 }
 span.launch a{
 	text-decoration: none;
@@ -94,6 +93,7 @@ ul.tech_right {
 .description ul li {
 	color: #d6d6d6;
 	font-size: 14px;
+	line-height: 1.4em;
 }
 div.description ul.tech_left {float: left;}
 div.description ul.tech_right {
@@ -101,6 +101,116 @@ div.description ul.tech_right {
 	position: relative;
 	right: 100px;
 }
+
+/*------------------RESUME------------------*/
+div#content.resume {
+	width: 741px;
+	margin-left: 42px;
+}
+div#resume_header {
+	width: 100%;
+	height: 70px;
+}
+#resume_header_left {
+	float: left;
+	width: 384px;
+	padding-right: 21px;
+}
+#resume_header_left h2 {
+	font-size: 20px;
+	color: #d6d6d6;
+	text-transform: uppercase;
+	margin-bottom: 11px;
+}
+span.resume_title {
+	color: #89d4df;
+	font-weight: bold;
+	font-size: 16px;
+	float: left;
+	padding-right: 93px;
+}
+span.resume_blue {
+	font-size: 15px;
+	float: left;
+	font-weight: bold;
+	color: #89d4df;
+	text-transform: uppercase;
+	padding-right: 16px;
+	padding-bottom: 1px;
+}
+p#phone, p#angst, p#address {
+	color: #d6d6d6;
+	margin-bottom: 10px;
+}
+p#phone {
+	width: 100px;
+	margin-left: 97px;
+}
+p#address {
+	width: 179px;
+	margin-left: 97px;
+	line-height: 1.4em;
+}
+#resume_header_right {
+	float: left;
+	width: 260px;
+	margin-left: 47px;
+}
+div#resume_skills {
+	width: 100%;
+	margin-top: 29px;
+}
+div#skills_lists {
+	width: 100%;
+	padding-top: 15px;
+}
+ul.skillset {
+	width: 140px;
+	float: left;
+	list-style-type: square;
+	padding-left: 49px;
+	margin-bottom: 34px;
+}
+ul.skillset li {
+	float: left;
+	padding-right: 157px;
+	padding-bottom: 14px;
+	
+}
+div#resume_info {
+	clear: left;
+}
+div.resume_job {
+	width: 657px;
+}
+.resume_job h3 {
+	font-size: 18px;
+	padding-bottom: 5px;
+	margin-top: 41px;
+}
+span.resume_date {
+	float: right;
+	font-size: 14px;
+	font-style: italic;
+}
+p.resume_description {
+	line-height: 1.4em;
+	clear: right;
+	width: 579px;
+	margin-top: 27px;
+}
+div#resume_edu {
+	width: 579px;
+	margin-top: 40px;
+}
+div#resume_edu span.resume_blue, div#resume_edu p {
+	padding-bottom: 8px;
+}
+div#resume_edu p.resume_description {
+	margin-top: 0;
+	font-size: 15px;
+}
+.resume p, .resume li, .resume h3, .resume_date { color: #d6d6d6; }
 
 /*------------------FOOTER------------------*/
 #footer {
@@ -118,15 +228,14 @@ div.description ul.tech_right {
 	border-top: 1px solid #ccc;
 }
 .foot_block h3 {
-	font-family: 'Helvetica Neue Medium';
+	font-family: 'Helvetica Neue';
 	font-size: 16px;
 	padding-bottom: 10px;
 	color: #89d4df;
 }
 .foot_block p, .foot_block ul li, #find_me ul li a {
 	color: #d6d6d6;
-	font-weight: lighter;
-	font-family: 'Helvetica Neue Roman';
+	font-family: 'Helvetica Neue';
 	line-height: 1.4em;
 	font-size: 14px;
 	text-decoration: none;
