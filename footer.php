@@ -1,41 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" xml:lang="en">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <title>The Portfolio of John Heimkes IV</title>
-    <meta name="Author" content="Author" />
-    <meta name="robots" content="noindex, nofollow"
-    <meta name="Keywords" content="John Heimkes IV, portfolio, web design, website, web development, programming, Minneapolis, Minnesota, MN, Twin Cities" />
-    <meta name="Description" content="Portfolio of John Heimkes IV" />
-    <link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
-    <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
-    <script src="js/scrollable.js" type="text/javascript" charset="utf-8"></script>
-    <script src="js/application.js" type="text/javascript" charset="utf-8"></script>
-  </head>
-  <body>
-    <div id="wrapper">
-      <div id="header">
-        <h1><a href='index.html'>iv</a></h1>
-      </div>
-      
-      <div id="main_content">
-        <div id="side_nav">
-          <h2>Projects</h2>
-          <ul class="projects">
-            <li><a href="index.html">Gaardhouse</a></li>
-            <li><a href="inspire.html">InspireMPLS</a></li>
-            <li><a href="aai.html">AccessAbility Inc.</a></li>
-            <li><a href="slurp.html">Slurp! 2010</a></li>
-          </ul>
-        </div>
-        
-      <div id="content" class="fourohfour">
-        <h2>Oh snap!</h2>
-        <p>You broke the Internet! Ok... not really. Let's try this again, <a href="index.html">shall we</a>?</p>
-      </div>
-    </div>
-      <div id="footer">
+<div id="footer">
         <div class="foot_block">
           <h3>About IV</h3>
           <p>A programmer with a passion for pushing myself to learn something new every day.  I'm a lover of coffee, valid code and the ever growing technologies today.</p>
