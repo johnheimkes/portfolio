@@ -106,10 +106,27 @@ div.description ul.tech_right {
 div#content.resume {
 	width: 741px;
 	margin-left: 42px;
+	margin-top: -45px;
+}
+div#download_resume ul { list-style-type: none; }
+div#download_resume p {
+	float: left;
+	padding-right: 5px;
+}
+div#download_resume ul li a {
+	text-decoration: none;
+	float: left;
+	padding: 0 10px;
+	color: #9d4729;
+}
+div#download_resume ul li a:hover {
+	color: #d6d6d6;
 }
 div#resume_header {
 	width: 100%;
+	clear: left;
 	height: 70px;
+	margin-top: 40px;
 }
 #resume_header_left {
 	float: left;
