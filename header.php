@@ -30,14 +30,14 @@
   <body>
     <div id="wrapper">
       <div id="header">
-        <h1><a href='/home'>iv</a></h1>
+        <h1><a href='/'>iv</a></h1>
       </div>
       
       <div id="main_content">
         <div id="side_nav">
           <h2>Projects</h2>
           <ul class="projects">
-            <li><a href="/home">Gaardhouse</a></li>
+            <li><a href="/">Gaardhouse</a></li>
             <li><a href="/gfda">Good Dating Advice</a></li>
             <li><a href="/inspire">InspireMPLS</a></li>
             <li><a href="/aai">AccessAbility Inc.</a></li>

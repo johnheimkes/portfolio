@@ -436,4 +436,14 @@ div#content.fourohfour a {
   display: block;
   font-weight: bold;
 }
+a.next.browse.right img {
+	position: relative;
+	right: 10px;
+	z-index: -1;
+}
+a.prev.browse.left img {
+	position: relative;
+	left: 10px;
+	z-index: -1;
+}
 /* -- */
