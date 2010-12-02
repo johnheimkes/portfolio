@@ -15,10 +15,10 @@
         <div class="scrollable">
           <div class="items">
             <div class="section">
-              <img src="images/gaardhouse/main.jpg"/>
+              <img src="images/gaardhouse/main.jpg" alt="Main page" />
             </div>
             <div class="section">
-              <img src="images/gaardhouse/two.png"/>
+              <img src="images/gaardhouse/two.png" alt="Work page displaying each project in any order they want thanks to the plugin I built " />
             </div>
           </div>
         </div>
@@ -29,6 +29,7 @@
         <div class="description">
           <h4>Gaardhouse</h4>
           <p>Front-end development from PSD files to full working website.  Developed a plugin to allow the client to order posts.  Gaardhouse is a small film company in Minneapolis, MN</p>
+          <span class="launch"><a href="http://gaardhouse.com">Take a peak!</a></span>
         </div>
         <div class="description">
           <h4>Technology</h4>

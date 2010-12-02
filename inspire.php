@@ -29,6 +29,7 @@
         <div class="description">
           <h4>InspireMPLS</h4>
           <p>Full description to come soon. Full description to come soon. Full description to come soon. Full description to come soon</p>
+          <span class="launch"><a href="http://inspirempls.com">Take a peak!</a></span>
         </div>
         <div class="description">
           <h4>Technology</h4>
