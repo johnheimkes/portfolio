@@ -436,6 +436,11 @@ div#content.fourohfour a {
   display: block;
   font-weight: bold;
 }
+a.next.browse.right, a.prev.browse.left {
+	display: block;
+	height: 50px;
+	width: 50px;
+}
 a.next.browse.right img {
 	position: relative;
 	right: 10px;
