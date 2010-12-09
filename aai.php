@@ -31,12 +31,12 @@
           </div>
           <div class="description">
             <h4>AAI Business Services</h4>
-            <p>Lead developer on a site redesign for AccessAbility Inc., a non-profit agency.  This project was part of an in-class assignment for WDIM Production Team.</p>
+            <p>Lead Developer on a website redesign for AccessAbility Inc; a non-profit agency.  This project was part of an in-class assignment for WDIM Production Team.</p>
           </div>
           <div class="description">
             <h4>Technology</h4>
             <ul class="tech_left">
-              <li>HTML/CSS</li>
+              <li>HTML / CSS</li>
               <li>WordPress</li>
               <li>PHP</li>
             </ul>

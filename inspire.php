@@ -28,8 +28,8 @@
         </div>
         <div class="description">
           <h4>InspireMPLS</h4>
-          <p>Full description to come soon. Full description to come soon. Full description to come soon. Full description to come soon</p>
-          <span class="launch"><a href="http://inspirempls.com">Take a peak!</a></span>
+          <p>Inspire MPLS is a location based social networking site for creatives to share what inspires them about their city. I was the lead Front-End Developer and assisted in building the back-end.</p>
+          <span class="launch"><a href="http://inspirempls.com" target="_blank">Take a peek!</a></span>
         </div>
         <div class="description">
           <h4>Technology</h4>

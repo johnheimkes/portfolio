@@ -24,13 +24,13 @@ function validate($name, $message, $email) {
   );
 
   if ($validity["name"] == true && $validity["message"] == true) {
-    if(mail($emailaddress,"Subject: $subject",$body,"MIME-Version: 1.0\r\n"."Content-type: text/html; charset=iso-8859-1" )) {
-      header("Location: return.php?success=true");
+    if(mail($emailaddress,"$subject",$body,"MIME-Version: 1.0\r\n"."Content-type: text/html; charset=iso-8859-1" )) {
+      header('Location:' . $_SERVER['HTTP_REFERER']."?success=true#contact");
     } else {
-      header("Location: return.php?error=true");
+      header('Location:' . $_SERVER['HTTP_REFERER']."?error=true#contact");
     }
   } else {
-    header("Location: return.php?error=true");
+    header('Location:' . $_SERVER['HTTP_REFERER']."?error=true#contact");
   }
 }
 

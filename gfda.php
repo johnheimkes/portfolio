@@ -37,13 +37,17 @@
           </div>
           <div class="description">
             <h4>Good Fucking Dating Advice</h4>
-            <p>Totally fun and random project as a part of MarkupIsArt. Built an entire open-source PHP class that talks to the database, pulls random posts and displays them based on category you have chosen.</p>
-            <span class="launch"><a href="http://goodfuckingdatingadvice.com">Take a peak!</a></span>
+            <p>Website created in Rails as a learning adventure. Within 9 hours of launching it had over 10,500 hits and 650 unique visitors. The original was built with an open-source PHP class.</p>
+            <span class="launch"><a href="http://goodfuckingdatingadvice.com" target="_blank">Take a peek!</a></span>
           </div>
           <div class="description">
             <h4>Technology</h4>
             <ul class="tech_left">
-              <li>HTML/CSS</li>
+              <li>HTML / CSS</li>
+              <li>Ruby</li>
+              <li>Rails</li>
+            </ul>
+            <ul class="tech_right">
               <li>PHP</li>
               <li>MySQL</li>
             </ul>

@@ -1,12 +1,12 @@
-<div id="footer">
+      <div id="footer">
         <div class="foot_block">
-          <h3>About IV</h3>
-          <p>A programmer with a passion for pushing myself to learn something new every day.  I'm a lover of coffee, valid code and the ever growing technologies today.</p>
+          <h3>About</h3>
+          <p>A programmer with a passion for pushing myself to learn something new every day. I am a lover of coffee, valid code and ever growing technologies.</p>
         </div>
         <div class="foot_block">
           <h3>What I do</h3>
           <ul class="know_left">
-            <li>HTML/CSS</li>
+            <li>HTML / CSS</li>
             <li>Javascript</li>
             <li>PHP</li>
           </ul>
@@ -17,7 +17,7 @@
           </ul>
         </div>
         <div class="foot_block" id="find_me">
-          <h3>Stalk me</h3>
+          <h3>Other stuff</h3>
           <ul class="info_left">
             <li><a href="/resume">Resume</a></li>
             <li><a href="http://twitter.com/johnheimkes" target="_blank">Twitter</a></li>
@@ -31,7 +31,15 @@
           </ul>
         </div>
         <div class="foot_block" id="contact">
+          <a name="contact"></a>
           <h3>Contact</h3>
+          <?php
+            if($_GET['success'] == true) {
+              echo "<p class='return_pass'>Thanks! I'll get back to you soon.</p>";
+            } elseif($_GET['error'] == true) {
+              echo "<p class='return_fail'>Error! Did you forget something?</p>";
+            }
+          ?>
           <fieldset>
             <form action="form.php" method="post">
               <label for="name"><sup>*</sup> Name</label><input type="text" name="name" value="" id="name" />
@@ -39,7 +47,6 @@
               <label for="message"><sup>*</sup> Message</label><textarea name="message" id="message"></textarea>
               <span class="notation"><sup>*</sup> Denotes required field.</span>
               <label for="submit"></label><input type="submit" name="submit" value="Submit" id="submit" />
-              
             </form>
           </fieldset>
         </div>

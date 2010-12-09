@@ -28,17 +28,17 @@
         </div>
         <div class="description">
           <h4>Gaardhouse</h4>
-          <p>Front-end development from PSD files to full working website.  Developed a plugin to allow the client to order posts.  Gaardhouse is a small film company in Minneapolis, MN</p>
-          <span class="launch"><a href="http://gaardhouse.com">Take a peak!</a></span>
+          <p>Front-end development from PSD files to full working website. Developed a plugin to allow the client to create order order posts. Gaardhouse is a small film company in Minneapolis, MN.</p>
+          <span class="launch"><a href="http://gaardhouse.com" target="_blank">Take a peek!</a></span>
         </div>
         <div class="description">
           <h4>Technology</h4>
           <ul class="tech_left">
-            <li>HTML/CSS</li>
+            <li>HTML / CSS</li>
             <li>WordPress</li>
-            <li>PHP</li>
           </ul>
           <ul class="tech_right">
+            <li>PHP</li>
             <li>jQuery</li>
           </ul>
         </div>
