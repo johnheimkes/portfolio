@@ -6,15 +6,14 @@
         <div id="download_resume">
           <p>Download:</p>
           <ul>
-            <!-- <li><a href="dl/johnheimkes_resume.doc">doc</a></li> -->
-            <li><a href="dl/johnheimkes_resume.pdf">pdf</a></li>
+            <li><a href="dl/JohnHeimkes-resume.pdf">pdf</a></li>
           </ul>
         </div>
         <div id="resume_header">
           <div id="resume_header_left">
             <h2>John Heimkes IV</h2>
             <span class="resume_title">Web Developer</span>
-            <span class="resume_blue">Email: </span><p id="angst">johnh@ang.st</p>
+            <span class="resume_blue">Email: </span><p id="angst">john@theiv.me</p>
           </div>
           <div id="resume_header_right">
             <span class="resume_blue">Phone: </span><p id="phone">763.238.1554</p>
@@ -43,12 +42,21 @@
         
         <div id="resume_info">
           <div class="resume_job">
-            <h3>Hyperbole Design</h3>
+            <h3>MarkupIsArt</h3>
             <span class="resume_date">January 2010 &ndash; present</span>
-            <span class="resume_title">Intern</span>
-            <p class="resume_description">I currently work as an intern building websites with various small to medium sized companies. I specialize in frontend development (HTML / CSS).</p>
+            <span class="resume_title">Software Engineer</span>
+            <p class="resume_description">Helped with numerous projects including:</p>
+            <div id="skills_lists">
+               <ul class="sites">
+                 <li>mustache.me</li>
+                 <li>InspireMPLS.com</li>
+               </ul>
+               <ul class="sites">
+                 <li>LifeRules.me</li>
+                 <li>GoodFuckingDatingAdvice.com</li>
+               </ul>
           </div>
-          <div class="resume_job">
+          <div class="resume_job" id="gg">
             <h3>Grandpa-George</h3>
             <span class="resume_date">April 2009 &ndash; February 2010</span>
             <span class="resume_title">Web Developer</span>

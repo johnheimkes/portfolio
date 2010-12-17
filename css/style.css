@@ -181,7 +181,7 @@ div#skills_lists {
 	width: 100%;
 	padding-top: 15px;
 }
-ul.skillset {
+ul.skillset, ul.sites {
 	width: 140px;
 	float: left;
 	list-style-type: square;
@@ -191,9 +191,14 @@ ul.skillset {
 ul.skillset li {
 	float: left;
 	padding-right: 157px;
-	padding-bottom: 14px;
-	
+	padding-bottom: 14px;	
 }
+ul.sites li {
+  float:left;
+  padding-right:200px;
+  padding-bottom:20px;
+}
+#gg { clear: left; }
 div#resume_info {
 	clear: left;
 }

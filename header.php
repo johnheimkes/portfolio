@@ -36,10 +36,9 @@
         <div id="side_nav">
           <h2>Projects</h2>
           <ul class="projects">
-            <li><a href="/">Gaardhouse</a></li>
-            <li><a href="/gfda">Good Dating Advice</a></li>
-            <li><a href="/inspire">InspireMPLS</a></li>
-            <li><a href="/aai">AccessAbility Inc.</a></li>
+            <li><a href="/">Good Dating Advice</a></li>
+            <li><a href="/gaardhouse">Gaardhouse</a></li>
+            <li><a href="/inspirempls">InspireMPLS</a></li>
             <li><a href="/slurp">Slurp! 2010</a></li>
           </ul>
         </div>
