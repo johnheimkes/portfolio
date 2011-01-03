@@ -21,7 +21,7 @@
           <ul class="info_left">
             <li><a href="/resume">Resume</a></li>
             <li><a href="http://twitter.com/johnheimkes" target="_blank">Twitter</a></li>
-            <li><a href="http://www.linkedin.com/pub/john-heimkes/1a/475/4b0" target="_blank">LinkedIn</a></li>
+            <li><a href="http://www.linkedin.com/in/johnheimkes" target="_blank">LinkedIn</a></li>
             <li><a href="http://github.com/johnheimkes" target="_blank">GitHub</a></li>
           </ul>
           <ul class="info_right">
