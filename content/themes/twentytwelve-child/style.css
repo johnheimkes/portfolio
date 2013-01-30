@@ -1,0 +1,24 @@
+/*
+Theme Name: Twenty Twelve Child
+Theme URI http://theiv.me
+Description: Child theme for the twentytwelve theme. To be used only for John's portfolio.
+Author: John Heimkes IV
+Author URI: http://johnheimkes.com
+Template: twentytwelve
+Version 1.0
+*/
+
+@import url("../twentytwelve/style.css");
+
+h1.site-title a {
+    color: #009900;
+}
+
+.nav-menu {
+    background-image: -moz-linear-gradient(top, #888a8a, #2e2e2e);
+    background-image: -ms-linear-gradient(top, #888a8a, #2e2e2e);
+    background-image: -o-linear-gradient(top, #888a8a, #2e2e2e);
+    background-image: -webkit-gradient(linear, center top, center bottom, from(#888a8a), to(#2e2e2e));
+    background-image: -webkit-linear-gradient(top, #888a8a, #2e2e2e);
+    background-image: linear-gradient(top, #888a8a, #2e2e2e);
+}
