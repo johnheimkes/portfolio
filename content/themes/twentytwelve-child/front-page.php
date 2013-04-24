@@ -17,7 +17,7 @@ get_header(); ?>
                 <?php foreach ( $posts as $post ) : setup_postdata( $post ); ?>
                     <li <?php post_class( 'box' ); ?>>
                         <div class="box-inner">
-                            <a class="img-link" href="<?php the_permalink(); ?>"><?php the_post_thumbnail   (); ?></a>
+                            <a class="img-link" href="<?php the_permalink(); ?>"><?php the_post_thumbnail(); ?></a>
                             <h2 class="post-name"><?php the_title(); ?></h2>
                         </div>
                     </li>
