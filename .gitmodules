@@ -1,6 +1,6 @@
 [submodule "core"]
 	path = core
-	url = git@github.com:WordPress/WordPress.git
+	url = git://github.com:WordPress/WordPress.git
 [submodule "content/themes/underscores"]
 	path = content/themes/underscores
 	url = https://github.com/johnheimkes/_s.git
