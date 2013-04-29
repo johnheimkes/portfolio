@@ -13,7 +13,7 @@ get_header(); ?>
             $posts = get_field( 'homepage_work' );    
             if ( $posts ) :
         ?>
-            <ul class="h-list work-nav">
+            <ul class="h-list work-list">
                 <?php foreach ( $posts as $post ) : setup_postdata( $post ); ?>
                     <li <?php post_class( 'box' ); ?>>
                         <div class="box-inner">

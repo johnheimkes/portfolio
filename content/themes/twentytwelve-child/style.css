@@ -9,3 +9,6 @@ Version 1.0
 */
 
 @import url("../twentytwelve/style.css");
+
+.h-list { float: left; }
+
